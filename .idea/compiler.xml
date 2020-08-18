@@ -7,13 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="proman-db" />
-        <module name="proman-api" />
-      </profile>
-      <profile name="Annotation profile for proman" enabled="true">
-        <sourceOutputDir name="../proman-db/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../proman-db/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="proman-service" />
+        <module name="proman-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
